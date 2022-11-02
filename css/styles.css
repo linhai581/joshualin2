@@ -1,8 +1,9 @@
 /***************** Tag Selector *************/
 
 body {
-  background-color: green;
+  background-color: #f0e4ea;
 }
+
 
 hr {
   background-color: none;
@@ -20,6 +21,23 @@ h3 {
 }
 
 /************ Class Selector for the whole class, multiple uses*********/
+.navbar {
+  color: black;
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbartext {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.navbartext{
+  display: inline;
+}
 
 
 /************ id Selector for a single use **********/
