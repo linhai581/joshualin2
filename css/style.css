@@ -6,19 +6,24 @@
 
 
 
-
 /********** classes  ************/
 .navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: deepskyblue;
+  overflow: hidden;
 }
 
-.navbar_text{
-  
+.navbar_text {
+  display: block;
+  float: left;
+  padding: 8px;
 }
 
-
+.navbar_text:hover {
+  background-color: green;
+}
 
 
 /********** IDs ************/
