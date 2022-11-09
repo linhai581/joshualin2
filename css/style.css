@@ -2,6 +2,9 @@
 
 body {
   background-color: Azure;
+  display: block;
+  margin: 0;
+
 }
 
 
@@ -11,7 +14,10 @@ body {
 .navDiv {
   width: 100%;
   height: 50px;
-  display: inline-block;
+  left: 40px;
+  display: block;
+  overflow: hidden;
+  flex: 1;
 }
 
 .navbar {
